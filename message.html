@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messaging Interface</title>
+    <link rel="stylesheet" href="../static/styles_m6.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="search-bar">
+                <input type="text" placeholder="Search messages...">
+            </div>
+            <div class="contact-list">
+                <div class="contact active" data-chat-id="1">
+                    <div class="avatar">
+                        <span class="initials">S</span>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Skaria Mathew</h4>
+                        <p>Last message...</p>
+                    </div>
+                </div>
+                <div class="contact" data-chat-id="2">
+                    <div class="avatar">
+                        <span class="initials">S</span>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Shan Krishna</h4>
+                        <p>Last message...</p>
+                    </div>
+                </div>
+                <!-- Add more contacts as needed -->
+            </div>
+        </div>
+        <div class="chat-area">
+            <div class="chat-header">
+                <div class="avatar">
+                    <span class="initials">S</span>
+                </div>
+                <h4>Skaria Mathew</h4>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be added here dynamically -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type a message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="../static/script_m6.js"></script>
+</body>
+</html>
